@@ -1,0 +1,29 @@
+
+.beerPage {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.beerPage .image {
+  width: 12rem;
+  margin-right: 2rem;
+}
+.beerPage .image img {
+  width: 100%;
+}
+.beerPage .info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.beerPage button {
+  font-size: 120%;
+  padding: .5rem 1rem;
+  margin-bottom: 2rem;
+}
+.beerPage .info h2 {
+  font-size: 250%;
+  margin-top: 0;
+}
